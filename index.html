@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інтернет-Магазин</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #1a1a1a;
+            padding: 20px;
+        }
+        .header h1 {
+            color: #ffcc00;
+        }
+        .product {
+            margin: 20px;
+            padding: 20px;
+            background-color: #333333;
+            border-radius: 10px;
+        }
+        .product img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        .product h2 {
+            color: #ffcc00;
+        }
+        .product .price {
+            text-decoration: line-through;
+            color: #ff0000;
+        }
+        .product .discount {
+            color: #00ff00;
+        }
+        .order-form {
+            margin: 20px;
+            padding: 20px;
+            background-color: #333333;
+            border-radius: 10px;
+        }
+        .order-form input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+        .order-form button {
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Зіпка Nike Tech Syna World Central Cee</h1>
+    </div>
+    <div class="product">
+        <img src="product1.jpg" alt="Product 1">
+        <h2>Зіпка Nike Tech Syna World Central Cee</h2>
+        <p class="price">2000</p>
+        <p class="discount">АКЦІЯ 1830</p>
+        <p>Залишилося: 4 шт.</p>
+        <p>Зіпка Nike Tech Syna World Central Cee - це стильний та зручний одяг для будь-якої погоди. Виготовлена з високоякісних матеріалів, вона забезпечує комфорт та довговічність.</p>
+        <img src="product2.jpg" alt="Product 2">
+        <p>Ця зіпка має сучасний дизайн та підходить для будь-якого стилю. Вона ідеально підходить для активного відпочинку та повсякденного носіння.</p>
+        <img src="product3.jpg" alt="Product 3">
+        <p>Завдяки своїй універсальності, зіпка Nike Tech Syna World Central Cee стане незамінною частиною вашого гардеробу. Вона легко поєднується з іншими елементами одягу.</p>
+        <img src="product4.jpg" alt="Product 4">
+        <p>Цей продукт доступний в обмеженій кількості, тому не втрачайте можливість придбати його за акційною ціною. Замовляйте зараз і насолоджуйтесь комфортом та стилем.</p>
+        <img src="product5.jpg" alt="Product 5">
+        <p>Зіпка Nike Tech Syna World Central Cee - це вибір тих, хто цінує якість та стиль. Не пропустіть шанс стати власником цього унікального продукту.</p>
+        <img src="product6.jpg" alt="Product 6">
+    </div>
+    <div class="order-form">
+        <h2>Оформити замовлення</h2>
+        <p>Вас зателефонують, щоб підтвердити замовлення та узгодити доставку.</p>
+        <form action="https://your-server-endpoint" method="POST">
+            <input type="text" name="name" placeholder="Ім'я" required>
+            <input type="tel" name="phone" placeholder="Номер телефону" required>
+            <button type="submit">Замовити</button>
+        </form>
+    </div>
+</body>
+</html>
