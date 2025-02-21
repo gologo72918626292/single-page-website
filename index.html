@@ -19,6 +19,7 @@
         }
         .header h1 {
             color: #ffcc00;
+            font-size: 2em;
         }
         .product {
             margin: 20px;
@@ -33,6 +34,7 @@
         }
         .product h2 {
             color: #ffcc00;
+            font-size: 1.5em;
         }
         .product .price {
             text-decoration: line-through;
@@ -48,7 +50,7 @@
             border-radius: 10px;
         }
         .order-form input {
-            width: 80%;
+            width: 90%;
             padding: 10px;
             margin: 10px 0;
             border-radius: 5px;
@@ -60,6 +62,27 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+        }
+
+        /* Додамо стилі для мобільних пристроїв */
+        @media (max-width: 600px) {
+            .header {
+                padding: 10px;
+            }
+            .header h1 {
+                font-size: 1.5em;
+            }
+            .product {
+                margin: 10px;
+                padding: 10px;
+            }
+            .product h2 {
+                font-size: 1.2em;
+            }
+            .order-form {
+                margin: 10px;
+                padding: 10px;
+            }
         }
     </style>
 </head>
